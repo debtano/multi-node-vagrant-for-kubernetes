@@ -32,7 +32,7 @@ pre-setup.sh // Check virtualization HW, install virtualbox 6.0, install vagrant
 After cloning you should be able to :
 
 1. vagrant status
-2. vagrant up (everything or by machine)
+2. vagrant up (everything or by machine) -will download the box https://app.vagrantup.com/debtano/boxes/kuberdeb/versions/0.0.1
 3. vagrant ssh master
 4. kubeadm init
 
